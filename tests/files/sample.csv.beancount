@@ -1,0 +1,1608 @@
+;; Account: Assets:Paypal
+;; Date: 2026-01-01
+;; Name: 
+
+2023-01-31 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2023-01-31 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -39.99 EUR
+  Assets:Paypal              39.99 EUR
+
+2023-02-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-02-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-03-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-03-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-03-17 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   14.00 EUR
+  Expenses:FIXME
+
+2023-03-22 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -11.72 EUR
+  Expenses:FIXME
+
+2023-03-22 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -11.02 EUR
+  Expenses:FIXME
+
+2023-03-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -8.74 EUR
+  Assets:Paypal              8.74 EUR
+
+2023-04-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-04-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-04-16 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   -6.90 EUR
+  Expenses:FIXME
+
+2023-04-16 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.90 EUR
+  Assets:Paypal              6.90 EUR
+
+2023-05-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-05-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-06-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-06-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-07-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-07-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-08-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-08-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-08-18 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2023-08-18 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -39.99 EUR
+  Assets:Paypal              39.99 EUR
+
+2023-09-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-09-04 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2023-09-09 * "FoodDelivery Payments B.V." "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal@fooddelivery.com"
+  Assets:Paypal   -46.00 EUR
+  Expenses:FIXME
+
+2023-09-09 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -46.00 EUR
+  Assets:Paypal              46.00 EUR
+
+2023-09-10 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   11.00 EUR
+  Expenses:FIXME
+
+2023-09-10 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   8.50 EUR
+  Expenses:FIXME
+
+2023-09-10 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   11.50 EUR
+  Expenses:FIXME
+
+2023-09-24 * "CloudHost GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@cloudhost.com"
+  Assets:Paypal   -20.00 EUR
+  Expenses:FIXME
+
+2023-09-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -20.00 EUR
+  Assets:Paypal              20.00 EUR
+
+2023-10-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-10-08 * "PCParts AG" "PayPal Express-Zahlung"
+  sender: "paypal@pcparts.de"
+  Assets:Paypal   -349.00 EUR
+  Expenses:FIXME
+
+2023-10-08 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -349.00 EUR
+  Assets:Paypal              349.00 EUR
+
+2023-10-10 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   75.00 EUR
+  Expenses:FIXME
+
+2023-10-14 * "Finn Wagner" "Handyzahlung"
+  sender: "finn.wagner@example.de"
+  Assets:Paypal   -9.00 EUR
+  Expenses:FIXME
+
+2023-10-14 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -9.00 EUR
+  Assets:Paypal              9.00 EUR
+
+2023-10-18 * "Max Schmidt" "Handyzahlung"
+  sender: "max.schmidt@example.de"
+  Assets:Paypal   -23.00 EUR
+  Expenses:FIXME
+
+2023-10-18 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -23.00 EUR
+  Assets:Paypal              23.00 EUR
+
+2023-10-19 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -3.99 EUR
+  Expenses:FIXME
+
+2023-11-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-12-04 * "TechPay" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "disputes-eu@techpay.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2023-12-20 * "Marc Meyer" "Handyzahlung"
+  sender: "marc.meyer@example.com"
+  Assets:Paypal   53.00 EUR
+  Expenses:FIXME
+
+2023-12-20 * "TicketCentral AG & Co. KGaA" "PayPal Express-Zahlung"
+  sender: "paypal@ticketcentral.de"
+  Assets:Paypal   -111.78 EUR
+  Expenses:FIXME
+
+2023-12-20 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -111.78 EUR
+  Assets:Paypal              111.78 EUR
+
+2023-12-22 * "Stefan Neumann" "Handyzahlung"
+  sender: "stefan.neumann@example.de"
+  Assets:Paypal   -5.44 EUR
+  Expenses:FIXME
+
+2023-12-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -5.44 EUR
+  Assets:Paypal              5.44 EUR
+
+2023-12-23 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -10.91 EUR
+  Expenses:FIXME
+
+2023-12-23 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -10.91 EUR
+  Assets:Paypal              10.91 EUR
+
+2023-12-27 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   12.00 EUR
+  Expenses:FIXME
+
+2024-01-31 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2024-02-09 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   1.50 EUR
+  Expenses:FIXME
+
+2024-02-10 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2024-02-29 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   -25.00 EUR
+  Expenses:FIXME
+
+2024-02-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -25.00 EUR
+  Assets:Paypal              25.00 EUR
+
+2024-03-05 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -3.99 EUR
+  Expenses:FIXME
+
+2024-03-05 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -3.99 EUR
+  Assets:Paypal              3.99 EUR
+
+2024-03-09 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   -7.00 EUR
+  Expenses:FIXME
+
+2024-03-09 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.00 EUR
+  Assets:Paypal              7.00 EUR
+
+2024-03-09 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   -11.00 EUR
+  Expenses:FIXME
+
+2024-03-09 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -11.00 EUR
+  Assets:Paypal              11.00 EUR
+
+2024-04-02 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -3.69 EUR
+  Expenses:FIXME
+
+2024-05-03 * "PCParts AG" "PayPal Express-Zahlung"
+  sender: "paypal@pcparts.de"
+  Assets:Paypal   -885.52 EUR
+  Expenses:FIXME
+
+2024-05-03 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -885.52 EUR
+  Assets:Paypal              885.52 EUR
+
+2024-05-03 * "SmartRetail GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@smartretail.de"
+  Assets:Paypal   -30.90 EUR
+  Expenses:FIXME
+
+2024-05-03 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -30.90 EUR
+  Assets:Paypal              30.90 EUR
+
+2024-05-05 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -40.00 EUR
+  Expenses:FIXME
+
+2024-05-05 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -40.00 EUR
+  Assets:Paypal              40.00 EUR
+
+2024-05-06 * "PCParts AG" "PayPal Express-Zahlung"
+  sender: "paypal@pcparts.de"
+  Assets:Paypal   -231.25 EUR
+  Expenses:FIXME
+
+2024-05-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -231.25 EUR
+  Assets:Paypal              231.25 EUR
+
+2024-05-06 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -28.99 EUR
+  Expenses:FIXME
+
+2024-05-10 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   35.70 EUR
+  Expenses:FIXME
+
+2024-05-14 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -20.00 EUR
+  Expenses:FIXME
+
+2024-05-14 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -20.00 EUR
+  Assets:Paypal              20.00 EUR
+
+2024-05-20 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   3.00 EUR
+  Expenses:FIXME
+
+2024-05-21 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   17.00 EUR
+  Expenses:FIXME
+
+2024-05-27 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2024-05-29 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -7.00 EUR
+  Expenses:FIXME
+
+2024-05-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.00 EUR
+  Assets:Paypal              7.00 EUR
+
+2024-06-01 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2024-06-03 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -11.00 EUR
+  Expenses:FIXME
+
+2024-06-03 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -11.00 EUR
+  Assets:Paypal              11.00 EUR
+
+2024-06-06 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -28.99 EUR
+  Expenses:FIXME
+
+2024-06-06 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -21.45 EUR
+  Expenses:FIXME
+
+2024-06-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -21.45 EUR
+  Assets:Paypal              21.45 EUR
+
+2024-06-09 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -12.00 EUR
+  Expenses:FIXME
+
+2024-06-09 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -12.00 EUR
+  Assets:Paypal              12.00 EUR
+
+2024-06-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   9.00 EUR
+  Expenses:FIXME
+
+2024-06-13 * "Emma Mueller" "Handyzahlung"
+  sender: "emma.mueller@example.com"
+  Assets:Paypal   -60.00 EUR
+  Expenses:FIXME
+
+2024-06-13 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -60.00 EUR
+  Assets:Paypal              60.00 EUR
+
+2024-06-15 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -16.35 EUR
+  Expenses:FIXME
+
+2024-06-15 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -16.35 EUR
+  Assets:Paypal              16.35 EUR
+
+2024-06-19 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   7.00 EUR
+  Expenses:FIXME
+
+2024-06-23 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   22.10 EUR
+  Expenses:FIXME
+
+2024-07-01 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -4.00 EUR
+  Expenses:FIXME
+
+2024-07-01 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -4.00 EUR
+  Assets:Paypal              4.00 EUR
+
+2024-07-02 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -10.00 EUR
+  Expenses:FIXME
+
+2024-07-02 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -10.00 EUR
+  Assets:Paypal              10.00 EUR
+
+2024-07-08 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -47.99 EUR
+  Expenses:FIXME
+
+2024-07-08 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -47.99 EUR
+  Assets:Paypal              47.99 EUR
+
+2024-07-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -25.00 EUR
+  Expenses:FIXME
+
+2024-07-11 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -25.00 EUR
+  Assets:Paypal              25.00 EUR
+
+2024-07-14 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   5.00 EUR
+  Expenses:FIXME
+
+2024-07-18 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -23.00 EUR
+  Expenses:FIXME
+
+2024-07-18 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -23.00 EUR
+  Assets:Paypal              23.00 EUR
+
+2024-07-24 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -13.80 EUR
+  Expenses:FIXME
+
+2024-07-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -13.80 EUR
+  Assets:Paypal              13.80 EUR
+
+2024-07-28 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   2.50 EUR
+  Expenses:FIXME
+
+2024-07-28 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   2.50 EUR
+  Expenses:FIXME
+
+2024-07-30 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -8.00 EUR
+  Expenses:FIXME
+
+2024-07-30 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -8.00 EUR
+  Assets:Paypal              8.00 EUR
+
+2024-07-30 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -14.16 EUR
+  Expenses:FIXME
+
+2024-07-30 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -14.16 EUR
+  Assets:Paypal              14.16 EUR
+
+2024-08-05 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   15.00 EUR
+  Expenses:FIXME
+
+2024-08-06 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   -21.40 EUR
+  Expenses:FIXME
+
+2024-08-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -21.40 EUR
+  Assets:Paypal              21.40 EUR
+
+2024-08-06 * "Leon Hoffmann" "Handyzahlung"
+  sender: "leon.hoffmann@example.com"
+  Assets:Paypal   -2.20 EUR
+  Expenses:FIXME
+
+2024-08-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -2.20 EUR
+  Assets:Paypal              2.20 EUR
+
+2024-08-06 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   -1.00 EUR
+  Expenses:FIXME
+
+2024-08-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -1.00 EUR
+  Assets:Paypal              1.00 EUR
+
+2024-08-13 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   41.70 EUR
+  Expenses:FIXME
+
+2024-08-17 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   6.10 EUR
+  Expenses:FIXME
+
+2024-08-18 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2024-08-19 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -13.90 EUR
+  Expenses:FIXME
+
+2024-08-19 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -13.90 EUR
+  Assets:Paypal              13.90 EUR
+
+2024-08-22 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -20.00 EUR
+  Expenses:FIXME
+
+2024-08-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -20.00 EUR
+  Assets:Paypal              20.00 EUR
+
+2024-08-26 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -19.19 EUR
+  Expenses:FIXME
+
+2024-08-26 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -19.19 EUR
+  Assets:Paypal              19.19 EUR
+
+2024-08-28 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -9.49 EUR
+  Expenses:FIXME
+
+2024-08-28 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -9.49 EUR
+  Assets:Paypal              9.49 EUR
+
+2024-09-02 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   20.00 EUR
+  Expenses:FIXME
+
+2024-09-14 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -16.65 EUR
+  Expenses:FIXME
+
+2024-09-14 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -16.65 EUR
+  Assets:Paypal              16.65 EUR
+
+2024-09-15 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   12.92 EUR
+  Expenses:FIXME
+
+2024-09-16 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -5.69 EUR
+  Expenses:FIXME
+
+2024-09-17 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   7.50 EUR
+  Expenses:FIXME
+
+2024-09-20 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   5.50 EUR
+  Expenses:FIXME
+
+2024-09-21 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -10.00 EUR
+  Expenses:FIXME
+
+2024-09-21 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -10.00 EUR
+  Assets:Paypal              10.00 EUR
+
+2024-09-22 * "FoodDelivery Payments B.V." "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal@fooddelivery.com"
+  Assets:Paypal   -18.09 EUR
+  Expenses:FIXME
+
+2024-09-22 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   8.00 EUR
+  Expenses:FIXME
+
+2024-09-28 * "Tom Richter" "Handyzahlung"
+  sender: "tom.richter@example.de"
+  Assets:Paypal   -7.20 EUR
+  Expenses:FIXME
+
+2024-09-28 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.20 EUR
+  Assets:Paypal              7.20 EUR
+
+2024-09-29 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2024-09-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2024-09-29 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -7.70 EUR
+  Expenses:FIXME
+
+2024-09-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.70 EUR
+  Assets:Paypal              7.70 EUR
+
+2024-10-03 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   -8.20 EUR
+  Expenses:FIXME
+
+2024-10-03 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -8.20 EUR
+  Assets:Paypal              8.20 EUR
+
+2024-10-10 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -20.00 EUR
+  Expenses:FIXME
+
+2024-10-10 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -20.00 EUR
+  Assets:Paypal              20.00 EUR
+
+2024-10-12 * "Jan Schulz" "Handyzahlung"
+  sender: "jan.schulz@example.com"
+  Assets:Paypal   -30.00 EUR
+  Expenses:FIXME
+
+2024-10-12 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -30.00 EUR
+  Assets:Paypal              30.00 EUR
+
+2024-10-18 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -3.00 EUR
+  Expenses:FIXME
+
+2024-10-21 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -32.00 EUR
+  Expenses:FIXME
+
+2024-10-21 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -32.00 EUR
+  Assets:Paypal              32.00 EUR
+
+2024-10-22 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -4.32 EUR
+  Expenses:FIXME
+
+2024-10-30 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2024-11-03 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -1.99 EUR
+  Expenses:FIXME
+
+2024-11-07 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   5.50 EUR
+  Expenses:FIXME
+
+2024-11-08 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -7.00 EUR
+  Expenses:FIXME
+
+2024-11-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   16.42 EUR
+  Expenses:FIXME
+
+2024-11-16 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -13.00 EUR
+  Expenses:FIXME
+
+2024-11-25 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   25.00 EUR
+  Expenses:FIXME
+
+2024-12-01 * "FoodDelivery Payments B.V." "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal@fooddelivery.com"
+  Assets:Paypal   -24.71 EUR
+  Expenses:FIXME
+
+2024-12-05 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   8.30 EUR
+  Expenses:FIXME
+
+2024-12-07 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -14.00 EUR
+  Expenses:FIXME
+
+2024-12-09 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   6.00 EUR
+  Expenses:FIXME
+
+2024-12-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   23.00 EUR
+  Expenses:FIXME
+
+2024-12-17 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -12.76 EUR
+  Expenses:FIXME
+
+2024-12-21 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   4.10 EUR
+  Expenses:FIXME
+
+2024-12-21 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -5.97 EUR
+  Expenses:FIXME
+
+2024-12-22 * "Mueller & Partners GbR" "Website-Zahlung"
+  sender: "paypal@mueller-partners.de"
+  Assets:Paypal   -22.95 EUR
+  Expenses:FIXME
+
+2024-12-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2024-12-23 * "BookShop GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@bookshop.de"
+  Assets:Paypal   -21.99 EUR
+  Expenses:FIXME
+
+2024-12-23 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -21.99 EUR
+  Assets:Paypal              21.99 EUR
+
+2024-12-24 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -11.51 EUR
+  Expenses:FIXME
+
+2024-12-24 * "MusicStream AB" "PayPal Express-Zahlung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2024-12-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -5.99 EUR
+  Assets:Paypal              5.99 EUR
+
+2025-01-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -5.00 EUR
+  Expenses:FIXME
+
+2025-01-11 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   -17.00 EUR
+  Expenses:FIXME
+
+2025-01-12 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -3.17 EUR
+  Expenses:FIXME
+
+2025-01-13 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -11.53 EUR
+  Expenses:FIXME
+
+2025-01-20 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   7.00 EUR
+  Expenses:FIXME
+
+2025-01-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-01-23 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -15.00 EUR
+  Expenses:FIXME
+
+2025-01-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-01-25 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -17.00 EUR
+  Expenses:FIXME
+
+2025-01-31 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2025-02-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   17.00 EUR
+  Expenses:FIXME
+
+2025-02-19 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   9.00 EUR
+  Expenses:FIXME
+
+2025-02-21 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   8.00 EUR
+  Expenses:FIXME
+
+2025-02-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-02-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-02-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-02-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-03-05 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -10.30 EUR
+  Expenses:FIXME
+
+2025-03-18 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   11.90 EUR
+  Expenses:FIXME
+
+2025-03-19 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -56.47 EUR
+  Expenses:FIXME
+
+2025-03-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-03-23 * "Paul Becker" "Allgemeine Zahlung"
+  sender: "paul.becker@example.com"
+  Assets:Paypal   -11.90 EUR
+  Expenses:FIXME
+
+2025-03-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-03-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-03-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-03-24 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   11.00 EUR
+  Expenses:FIXME
+
+2025-03-26 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   8.00 EUR
+  Expenses:FIXME
+
+2025-03-26 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -5.00 EUR
+  Expenses:FIXME
+
+2025-04-07 * "PhoneRepair B.V." "PayPal Express-Zahlung"
+  sender: "paypal@phonerepair.com"
+  Assets:Paypal   -93.90 EUR
+  Expenses:FIXME
+
+2025-04-07 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -93.90 EUR
+  Assets:Paypal              93.90 EUR
+
+2025-04-16 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   16.20 EUR
+  Expenses:FIXME
+
+2025-04-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-04-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-04-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-04-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-04-27 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -15.00 EUR
+  Expenses:FIXME
+
+2025-05-06 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   11.50 EUR
+  Expenses:FIXME
+
+2025-05-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-05-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-05-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-05-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-05-31 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -21.50 EUR
+  Expenses:FIXME
+
+2025-06-05 * "www.gameplatform.com" "PayPal Express-Zahlung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -17.49 EUR
+  Expenses:FIXME
+
+2025-06-05 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -17.49 EUR
+  Assets:Paypal              17.49 EUR
+
+2025-06-06 * "FoodDelivery Payments B.V." "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal@fooddelivery.com"
+  Assets:Paypal   -24.47 EUR
+  Expenses:FIXME
+
+2025-06-06 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -12.88 EUR
+  Assets:Paypal              12.88 EUR
+
+2025-06-06 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.90 EUR
+  Expenses:FIXME
+
+2025-06-07 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -20.70 EUR
+  Expenses:FIXME
+
+2025-06-07 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -9.80 EUR
+  Assets:Paypal              9.80 EUR
+
+2025-06-10 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2025-06-17 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   15.00 EUR
+  Expenses:FIXME
+
+2025-06-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-06-23 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   12.00 EUR
+  Expenses:FIXME
+
+2025-06-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-06-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-06-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-06-30 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   12.50 EUR
+  Expenses:FIXME
+
+2025-07-02 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -3.96 EUR
+  Expenses:FIXME
+
+2025-07-05 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -10.00 EUR
+  Expenses:FIXME
+
+2025-07-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-07-23 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -18.00 EUR
+  Expenses:FIXME
+
+2025-07-23 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -18.00 EUR
+  Assets:Paypal              18.00 EUR
+
+2025-07-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-07-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-07-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Lukas Bauer" "Handyzahlung"
+  sender: "lukas.bauer@example.de"
+  Assets:Paypal   -25.00 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -25.00 EUR
+  Assets:Paypal              25.00 EUR
+
+2025-07-27 * "Sarah Klein" "Handyzahlung"
+  sender: "sarah.klein@example.de"
+  Assets:Paypal   8.00 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Lukas Bauer" "Allgemeine Zahlung"
+  sender: "lukas.bauer@example.de"
+  Assets:Paypal   23.45 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Lisa Fischer" "Allgemeine Zahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   15.00 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Lisa Fischer" "Handyzahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   -24.67 EUR
+  Expenses:FIXME
+
+2025-07-27 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -24.67 EUR
+  Assets:Paypal              24.67 EUR
+
+2025-08-15 * "Fashion Store Co" "PayPal Express-Zahlung"
+  sender: "paypal@fashionstore.com"
+  Assets:Paypal   -64.89 EUR
+  Expenses:FIXME
+
+2025-08-15 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -64.89 EUR
+  Assets:Paypal              64.89 EUR
+
+2025-08-18 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -39.99 EUR
+  Expenses:FIXME
+
+2025-08-19 * "River Adventures" "PayPal Express-Zahlung"
+  sender: "info@riveradventures.de"
+  Assets:Paypal   -70.00 EUR
+  Expenses:FIXME
+
+2025-08-19 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -70.00 EUR
+  Assets:Paypal              70.00 EUR
+
+2025-08-19 * "Sarah Klein" "Handyzahlung"
+  sender: "sarah.klein@example.de"
+  Assets:Paypal   17.50 EUR
+  Expenses:FIXME
+
+2025-08-20 * "Lisa Fischer" "Allgemeine Zahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   17.50 EUR
+  Expenses:FIXME
+
+2025-08-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-08-23 * "Nina Schneider" "Handyzahlung"
+  sender: "nina.schneider@example.de"
+  Assets:Paypal   17.50 EUR
+  Expenses:FIXME
+
+2025-08-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-08-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-08-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-09-01 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -20.00 EUR
+  Expenses:FIXME
+
+2025-09-01 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -20.00 EUR
+  Assets:Paypal              20.00 EUR
+
+2025-09-04 * "www.gameplatform.com" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments@gameplatform.com"
+  Assets:Paypal   -19.50 EUR
+  Expenses:FIXME
+
+2025-09-06 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   12.00 EUR
+  Expenses:FIXME
+
+2025-09-06 * "Lisa Fischer" "Allgemeine Zahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   9.10 EUR
+  Expenses:FIXME
+
+2025-09-10 * "Lukas Bauer" "Allgemeine Zahlung"
+  sender: "lukas.bauer@example.de"
+  Assets:Paypal   9.25 EUR
+  Expenses:FIXME
+
+2025-09-17 * "Wei Chen" "Allgemeine Zahlung"
+  sender: "weichen123@example.com"
+  Assets:Paypal                3.47 EUR
+  Expenses:PayPal:Commission  -0.57 EUR
+  Expenses:FIXME
+
+2025-09-21 * "LangLearn GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@langlearn.com"
+  Assets:Paypal   -29.97 EUR
+  Expenses:FIXME
+
+2025-09-21 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -29.97 EUR
+  Assets:Paypal              29.97 EUR
+
+2025-09-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-09-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-09-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-09-24 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -22.50 EUR
+  Expenses:FIXME
+
+2025-09-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -22.50 EUR
+  Assets:Paypal              22.50 EUR
+
+2025-09-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-09-25 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2025-10-01 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -11.00 EUR
+  Expenses:FIXME
+
+2025-10-01 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -11.00 EUR
+  Assets:Paypal              11.00 EUR
+
+2025-10-11 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -10.00 EUR
+  Expenses:FIXME
+
+2025-10-11 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -10.00 EUR
+  Assets:Paypal              10.00 EUR
+
+2025-10-13 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   7.00 EUR
+  Expenses:FIXME
+
+2025-10-20 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   11.00 EUR
+  Expenses:FIXME
+
+2025-10-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-10-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-10-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-10-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -5.99 EUR
+  Expenses:FIXME
+
+2025-10-26 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   -16.50 EUR
+  Expenses:FIXME
+
+2025-10-26 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -16.50 EUR
+  Assets:Paypal              16.50 EUR
+
+2025-10-27 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2025-10-29 * "RailService GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@railservice.com"
+  Assets:Paypal   -199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -199.90 EUR
+  Assets:Paypal              199.90 EUR
+
+2025-10-29 * "RailService GmbH" "Rückzahlung"
+  sender: "paypal@railservice.com"
+  Assets:Paypal   199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Von Nutzer eingeleitete Abbuchung"
+  Assets:Paypal   -199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Rückbuchung von ACH-Gutschrift"
+  Assets:Paypal   -199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Rückbuchung von ACH-Abbuchung"
+  Assets:Paypal   199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "RailService GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@railservice.com"
+  Assets:Paypal   -199.90 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -199.90 EUR
+  Assets:Paypal              199.90 EUR
+
+2025-10-29 * "RailService GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@railservice.com"
+  Assets:Paypal   -64.98 EUR
+  Expenses:FIXME
+
+2025-10-29 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -64.98 EUR
+  Assets:Paypal              64.98 EUR
+
+2025-10-30 * "Lukas Bauer" "Allgemeine Zahlung"
+  sender: "lukas.bauer@example.de"
+  Assets:Paypal   40.00 EUR
+  Expenses:FIXME
+
+2025-10-30 * "Sarah Klein" "Handyzahlung"
+  sender: "sarah.klein@example.de"
+  Assets:Paypal   40.00 EUR
+  Expenses:FIXME
+
+2025-10-31 * "Lisa Fischer" "Allgemeine Zahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   40.00 EUR
+  Expenses:FIXME
+
+2025-10-31 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   40.00 EUR
+  Expenses:FIXME
+
+2025-11-03 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -15.00 EUR
+  Expenses:FIXME
+
+2025-11-10 * "GameStore Sp. Z o.o." "PayPal Express-Zahlung"
+  sender: "paypal@gamestore.com"
+  Assets:Paypal   -14.79 EUR
+  Expenses:FIXME
+
+2025-11-10 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -14.79 EUR
+  Assets:Paypal              14.79 EUR
+
+2025-11-12 * "Laura Koch" "Handyzahlung"
+  sender: "laura.koch@example.de"
+  Assets:Paypal   40.00 EUR
+  Expenses:FIXME
+
+2025-11-15 * "Lisa Fischer" "Handyzahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   -3.83 EUR
+  Expenses:FIXME
+
+2025-11-15 * "David Wolf" "Handyzahlung"
+  sender: "david.wolf@example.de"
+  Assets:Paypal   -3.00 EUR
+  Expenses:FIXME
+
+2025-11-16 * "Lisa Fischer" "Handyzahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   -1.80 EUR
+  Expenses:FIXME
+
+2025-11-22 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -47.88 EUR
+  Expenses:FIXME
+
+2025-11-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -47.88 EUR
+  Assets:Paypal              47.88 EUR
+
+2025-11-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-11-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-11-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-11-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-11-30 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -13.00 EUR
+  Expenses:FIXME
+
+2025-12-04 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   10.00 EUR
+  Expenses:FIXME
+
+2025-12-09 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-pl@techpay.com"
+  Assets:Paypal   -3.39 EUR
+  Expenses:FIXME
+
+2025-12-16 * "Einbehaltung für offene Autorisierung"
+  Assets:Paypal   -240.92 EUR
+  Expenses:FIXME
+
+2025-12-16 * "AuctionSite S.a.r.l." "PayPal Express-Zahlung"
+  sender: "payments-eu@auctionsite.com"
+  Assets:Paypal   -448.90 EUR
+  Expenses:FIXME
+
+2025-12-16 * "Rückbuchung allgemeiner Einbehaltung"
+  Assets:Paypal   240.92 EUR
+  Expenses:FIXME
+
+2025-12-16 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -207.98 EUR
+  Assets:Paypal              207.98 EUR
+
+2025-12-22 * "Lisa Fischer" "Handyzahlung"
+  sender: "lisa.fischer@example.de"
+  Assets:Paypal   -16.50 EUR
+  Expenses:FIXME
+
+2025-12-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -16.50 EUR
+  Assets:Paypal              16.50 EUR
+
+2025-12-22 * "BookShop GmbH" "PayPal Express-Zahlung"
+  sender: "paypal@bookshop.de"
+  Assets:Paypal   -88.94 EUR
+  Expenses:FIXME
+
+2025-12-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -88.94 EUR
+  Assets:Paypal              88.94 EUR
+
+2025-12-22 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "payments-eu@techpay.com"
+  Assets:Paypal   -6.49 EUR
+  Expenses:FIXME
+
+2025-12-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.49 EUR
+  Assets:Paypal              6.49 EUR
+
+2025-12-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "info@foodbox.app"
+  Assets:Paypal   -6.99 EUR
+  Expenses:FIXME
+
+2025-12-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -6.99 EUR
+  Assets:Paypal              6.99 EUR
+
+2025-12-24 * "MusicStream AB" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
+  sender: "paypal-se@musicstream.com"
+  Assets:Paypal   -12.99 EUR
+  Expenses:FIXME
+
+2025-12-24 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -12.99 EUR
+  Assets:Paypal              12.99 EUR
+
+2025-12-31 * "Anna Weber" "Handyzahlung"
+  sender: "anna.weber@example.de"
+  Assets:Paypal   -7.00 EUR
+  Expenses:FIXME
+
+2025-12-31 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.00 EUR
+  Assets:Paypal              7.00 EUR
+
+2026-01-01 balance Assets:Paypal                                   0.00 EUR

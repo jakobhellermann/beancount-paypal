@@ -1,95 +1,74 @@
 # Beancount PayPal Importer
 
-`beancount-paypal` provides a beangulp-compatible Importer for converting CSV exports of PayPal into the beancount format.
+`beancount-paypal` provides a beangulp-compatible Importer for converting German PayPal CSV exports into beancount format.
 
-## Installation
+**Note:** The exporter has only been tested with current german PayPal CSV exports as of 2025.
 
-### Using uv (recommended)
+## Usage
 
-```sh
-uv add git+https://github.com/nils-werner/beancount-paypal.git
+Configure `PaypalImporter` in your beangulp importer script:
+
+```python
+from beancount_paypal import PaypalImporter
+import beancount_paypal.lang as lang
+
+CONFIG = [
+    PaypalImporter(
+        account_name="Assets:Paypal",
+        checking_account="Assets:Checking",
+        commission_account="Expenses:PayPal:Commission",
+        language=lang.de(),
+        metadata_map={
+            "sender": "from",
+        },
+        fixme_account="Expenses:FIXME",  # Optional, defaults to None
+    )
+]
 ```
 
-### Using pip
+### Parameters
 
-```sh
-pip install git+https://github.com/nils-werner/beancount-paypal.git
-```
+- `account_name`: The beancount account for your PayPal balance
+- `checking_account`: The account used for bank deposits to PayPal (shown as "Bankgutschrift auf PayPal-Konto")
+- `commission_account`: The account for PayPal fees
+- `language`: Language configuration (currently only `lang.de()` is supported)
+- `metadata_map`: Map beancount metadata keys to PayPal CSV fields (uses normalized field names)
+- `fixme_account`: Optional account for balancing incomplete transactions. Set to `None` to omit balancing postings.
 
-### For development
+### Available metadata fields
 
-```sh
-git clone https://github.com/nils-werner/beancount-paypal.git
-cd beancount-paypal
-uv sync
-```
+You can map any of these normalized field names in `metadata_map`:
 
-#### Code quality
+- `"date"`, `"time"`, `"timezone"`
+- `"name"` - Sender/recipient name
+- `"description"` - Transaction type (e.g., "Zahlung im Einzugsverfahren mit Zahlungsrechnung")
+- `"currency"`, `"gross"`, `"fee"`, `"net"`, `"balance"`
+- `"txn_id"` - Transaction ID
+- `"from"` - Sender email address
+- `"shipping_fee"` - Shipping and handling fee
+- `"invoice_id"` - Invoice number
+- `"reference_txn_id"` - Related transaction ID
+
+**Note:** Metadata fields are only included if they have non-empty values in the CSV.
+
+### Export PayPal CSV
+
+1. Go to https://www.paypal.com/reports/accountStatements
+2. "Bericht erstellen", Dateiformat CSV
+3. Wait a bit and download the generated CSV
+
+## Development
 
 This project uses [ruff](https://docs.astral.sh/ruff/) for linting and formatting:
 
 ```sh
-uv run ruff check .     # lint
-uv run ruff format .    # format
+just check
 ```
 
-## Usage
+### Testing
 
-### Basic usage
-
-Configure `PaypalImporter` in your beangulp importer script, and download your PayPal statements as CSV.
-
-In PayPal you can customize the report fields. If you enable `Transaction Details > Balance`, the
-beancount output will be finalized with a `balance` assertion.
-
-
-```python
-from beancount_paypal import PaypalImporter
-
-CONFIG = [
-    PaypalImporter(
-        'my-paypal-account@gmail.com',
-        'Assets:US:PayPal',
-        'Assets:US:Checking',
-        'Expenses:Financial:Commission',
-    )
-]
-```
-
-Use with beangulp:
-
-```bash
-beangulp extract CONFIG paypal_export.csv
-```
-
-### Advanced usage
-
-If you enable additional report fields you can map them into transaction metadata using the
-`metadata_map` keyword argument:
-
-```python
-from beancount_paypal import PaypalImporter, lang
-
-CONFIG = [
-    PaypalImporter(
-        'my-paypal-account@gmail.com',
-        'Assets:US:PayPal',
-        'Assets:US:Checking',
-        'Expenses:Financial:Commission',
-        language=lang.de(),
-        metadata_map={
-            "uuid": "Transaktionscode",
-            "sender": "Absender E-Mail-Adresse",
-            "recipient": "Empfänger E-Mail-Adresse"
-        }
-    )
-]
-```
-
-Use with beangulp for import workflows:
-
-```bash
-beangulp identify CONFIG paypal_export.csv
-beangulp extract CONFIG paypal_export.csv > new_entries.beancount
-beangulp file CONFIG paypal_export.csv
+```sh
+just test          # Run tests
+just test-generate # Regenerate expected test output
+just check         # Run all checks
 ```

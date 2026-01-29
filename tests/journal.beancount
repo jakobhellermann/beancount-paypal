@@ -1,0 +1,6 @@
+2020-01-01 open Assets:Paypal
+2020-01-01 open Assets:ZeroSum:Transfers
+2020-01-01 open Expenses:FIXME
+2020-01-01 open Expenses:PayPal:Commission
+
+include "files/sample.csv.beancount"
