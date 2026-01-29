@@ -1,0 +1,5 @@
+[journal]
+files = ["journal.beancount"]
+
+[staging]
+files = ["../tests/files/sample.csv.beancount"]
