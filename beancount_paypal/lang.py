@@ -26,6 +26,7 @@ FieldName = Literal[
 class Language:
     fields_map: dict[str, FieldName]
     bank_deposit_description: str
+    currency_conversion_description: str
     date_format: str
 
     def identify(self, fields: list[str]) -> bool:
@@ -69,6 +70,7 @@ class de(Language):
 
     date_format: str = "%d.%m.%Y"
     bank_deposit_description: str = "Bankgutschrift auf PayPal-Konto"
+    currency_conversion_description: str = "Allgemeine Währungsumrechnung"
 
     def decimal(self, data: str) -> str:
         return data.replace(".", "").replace(",", ".")
