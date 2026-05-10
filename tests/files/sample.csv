@@ -340,3 +340,7 @@
 "24.12.2025","16:07:21","Europe/Berlin","Bankgutschrift auf PayPal-Konto","EUR","12,99","0,00","12,99","0,00","1JP38189DB170211B","","","","","0,00","0,00","P3DBDBF953","7DD158428J522361E"
 "31.12.2025","12:15:45","Europe/Berlin","Handyzahlung","EUR","-7,00","0,00","-7,00","-7,00","3NM27516SP199594G","anna.weber@example.de","Anna Weber","","","0,00","0,00","",""
 "31.12.2025","12:15:45","Europe/Berlin","Bankgutschrift auf PayPal-Konto","EUR","7,00","0,00","7,00","0,00","6AW682819D2218833","","","","","0,00","0,00","","3NM27516SP199594G"
+"22.12.2025","11:53:59","Europe/Berlin","Bankgutschrift auf PayPal-Konto","EUR","7,93","0,00","7,93","7,93","TESTDEPO0000001AA","","","","","0,00","0,00","9999001","TESTPAYM0000001BB"
+"22.12.2025","11:53:59","Europe/Berlin","Allgemeine Währungsumrechnung","EUR","-7,93","0,00","-7,93","0,00","TESTUMREU000001CC","","","","","0,00","0,00","9999001","TESTPAYM0000001BB"
+"22.12.2025","11:53:59","Europe/Berlin","PayPal Express-Zahlung","USD","-8,80","0,00","-8,80","-8,80","TESTPAYM0000001BB","support@porkbun.com","Porkbun,LLC","","","0,00","0,00","9999001","TESTREFM0000001DD"
+"22.12.2025","11:53:59","Europe/Berlin","Allgemeine Währungsumrechnung","USD","8,80","0,00","8,80","0,00","TESTUMRUS000001EE","","","","","0,00","0,00","9999001","TESTPAYM0000001BB"

@@ -1,6 +1,6 @@
 ;; Account: Assets:Paypal
-;; Date: 2026-01-01
-;; Name: 
+;; Date: 2025-12-31
+;; Name: paypal.csv
 
 2023-01-31 * "TechPay Services Ltd" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
   sender: "payments-eu@techpay.com"
@@ -1578,6 +1578,25 @@
   Assets:ZeroSum:Transfers  -6.49 EUR
   Assets:Paypal              6.49 EUR
 
+2025-12-22 * "Bankgutschrift auf PayPal-Konto"
+  Assets:ZeroSum:Transfers  -7.93 EUR
+  Assets:Paypal              7.93 EUR
+
+2025-12-22 * "Allgemeine Währungsumrechnung"
+  Assets:Paypal   -7.93 EUR
+  Expenses:FIXME
+
+2025-12-22 * "Porkbun,LLC" "PayPal Express-Zahlung"
+  sender: "support@porkbun.com"
+  Assets:Paypal   -8.80 USD
+  Expenses:FIXME
+
+2025-12-22 * "Allgemeine Währungsumrechnung"
+  Assets:Paypal   8.80 USD
+  Expenses:FIXME
+
+2025-12-23 balance Assets:Paypal                                   0.00 USD
+
 2025-12-24 * "FoodBox GmbH" "Zahlung im Einzugsverfahren mit Zahlungsrechnung"
   sender: "info@foodbox.app"
   Assets:Paypal   -6.99 EUR
@@ -1604,5 +1623,3 @@
 2025-12-31 * "Bankgutschrift auf PayPal-Konto"
   Assets:ZeroSum:Transfers  -7.00 EUR
   Assets:Paypal              7.00 EUR
-
-2026-01-01 balance Assets:Paypal                                   0.00 EUR
